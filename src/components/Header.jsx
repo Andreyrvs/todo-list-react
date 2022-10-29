@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <header>Minha Lista de Tarefas</header>
+    <header>
+        <h1 className='text-2xl'>Minha Lista de Tarefas</h1>
+    </header>
   )
 }
