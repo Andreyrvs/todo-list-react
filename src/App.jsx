@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Header from './components/Header';
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-slate-700">
-      Hello world!
-    </h1>
+    <>
+      <Header />
+      <main>
+        Oi
+
+      </main>
+    </>
   );
 }
